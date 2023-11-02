@@ -1,64 +1,54 @@
-.main__container {
+.vacancies__container {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-/* sidebar */ 
+/* filter */ 
 
-.sidebar {
+.vacancies {
     max-width: 280px;
+    position: relative;
 }
 
-.sidebar__title {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-
-.sidebar__filter {
+.vacancies__title {
     color: #171717;
     font-size: 20px;
     line-height: 120%;
 }
 
-.sidebar__clean {
-    color: #CCC;
-    text-align: right;
-    font-size: 14px;
-    line-height: 120%;
-}
-
-.sidebar__items {
+.filter__form {
     display: flex;
     flex-direction: column;
     padding-top: 32px;
     gap: 32px;
 }
 
-.sidebar__item {
+.form__item {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    padding: 0;
 }
 
-.sidebar__item-select {
+.form__select {
     border-radius: 4px;
     border: none;
     padding: 6px 16px;
     color: #CCC;
 }
 
-.sidebar__item-option {
+.form__option {
     font-size: 14px;
     line-height: 120%;
     color: var(--color-black);
 }
 
-.sidebar__item-inputs {
+.form__inputs {
     display: flex;
     justify-content: space-between;
 }
 
-.sidebar__item-input {
+.form__input {
     width: 135px;
     height: 32px;
     margin: 0;
@@ -67,19 +57,46 @@
     border: none;
 }
 
-.sidebar__item-input::placeholder {
+.form__input::placeholder {
     font-size: 14px;
     text-transform: lowercase;
     line-height: 120%;
     color: #CCC;
 }
 
-.sidebar__item-checkbox {
+.form__checkbox {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.sidebar__item-checkbox input {
-    border: none;
+.form__checkbox label {
+    display: flex;
+    align-items: center;
+}
+
+.form__checkbox input {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.btn__reset {
+    color: #CCC;
+    text-align: right;
+    font-size: 14px;
+    line-height: 120%;
+    position: absolute;
+    top: 7px;
+    right: 0;
+}
+
+.btn__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #A6ADFF;
+    width: 125px;
+    height: 32px;
 }
