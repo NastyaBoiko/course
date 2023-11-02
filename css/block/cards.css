@@ -1,0 +1,9 @@
+.cards__container {
+    max-width: 880px;
+}
+
+.vacancy {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

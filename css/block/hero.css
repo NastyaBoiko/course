@@ -13,6 +13,7 @@
     text-transform: uppercase;
     max-width: 780px;
     margin: 57px 0;
+    position: relative;
 }
 
 .hero__title::after {
@@ -22,6 +23,6 @@
     height: 421px;
     background: url("../../img/hero.png") no-repeat bottom;
     position: absolute;
-    top: 125px;
-    right: 321px;
+    left: 798px;
+    top: -120px;
 }

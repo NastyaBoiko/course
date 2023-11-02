@@ -25,100 +25,120 @@
             </div>
         </section>
 
-        <div class="container vacancies__container">
+        <div class="main vacancies">
             <div class="vacancies">
-                <div class="vacancies__title">Фильтр</div>
-
-                <section class="vacancies__filter filter">
-                    <form class="filter__form form">
-                        <fieldset class="form__item">
-                            <div class="form__title">Город</div>
-                            <select class="form__select" name="" id="">
-                                <option class="form__option" value="">Выбрать город</option>
-                                <option class="form__option" value="">Это</option>
-                                <option class="form__option" value="">Делать</option>
-                            </select>
-                        </fieldset>
-                        <fieldset class="form__item">
-                            <div class="form__title">Заработная плата</div>
-                            <div class="form__inputs">
-                                <input class="form__input" type="text" name="minsalary" placeholder="От">
-                                <input class="form__input" type="text" name="maxsalary" placeholder="До">
-                            </div>
-                        </fieldset>
-                        <fieldset class="form__item">
-                            <div class="form__title">Формат</div>
-                            <div class="form__checkbox">
-                                <label>
-                                    <input type="checkbox" name="office" value="office" checked />Офис
-                                </label>
-                            
-                                <label>
-                                    <input type="checkbox" name="remote" value="remote"/>Удаленный
-                                </label>
-                            
-
-                                <label>
-                                    <input type="checkbox" name="flexible" value="flexible"/>Гибкий
-                                </label>
-                            </div>
-                        </fieldset>
-                        <div class="form__item">
-                            <div class="form__title">Опыт работы</div>
-                            <div class="form__checkbox">
-                                <label>
-                                    <input type="checkbox" name="unimportant" value="unimportant" checked />Не важно
-                                </label>
-                            
-                                <label>
-                                    <input type="checkbox" name="without" value="without"/>Без опыта
-                                </label>
-                            
-
-                                <label>
-                                    <input type="checkbox" name="1to3" value="1to3"/>От 1 года до 3-х лет
-                                </label>
+                <div class="container vacancies__container">
+                    <div class="vacancies__title">Фильтр</div>
+    
+                    <section class="vacancies__filter filter">
+                        <form class="filter__form form">
+                            <fieldset class="form__item">
+                                <legend class="form__title">Город</legend>
+                                <select class="form__select" name="" id="">
+                                    <option class="form__option" value="">Выбрать город</option>
+                                    <option class="form__option" value="">Это</option>
+                                    <option class="form__option" value="">Делать</option>
+                                </select>
+                            </fieldset>
+                            <fieldset class="form__item">
+                                <legend class="form__title">Заработная плата</legend>
+                                <div class="form__inputs">
+                                    <input class="form__input" type="text" name="minsalary" placeholder="От">
+                                    <input class="form__input" type="text" name="maxsalary" placeholder="До">
+                                </div>
+                            </fieldset>
+                            <fieldset class="form__item">
+                                <legend class="form__title">Формат</legend>
+                                <div class="form__checkbox">
+                                    <label>
+                                        <input type="checkbox" name="office" value="office" checked />Офис
+                                    </label>
                                 
-                                <label>
-                                    <input type="checkbox" name="3more" value="3more"/>От 3-х лет
-                                </label>
-                            </div>
-                        </div>
-
-                        <fieldset class="form__item">
-                            <div class="form__title">Опыт работы</div>
-                            <div class="form__checkbox">
-                                <label>
-                                    <input type="checkbox" name="full" value="full" checked />Полная
-                                </label>
-                            
-                                <label>
-                                    <input type="checkbox" name="part" value="part"/>Частичная
-                                </label>
-                            
-
-                                <label>
-                                    <input type="checkbox" name="1to3" value="1to3"/>Стажировка
-                                </label>
+                                    <label>
+                                        <input type="checkbox" name="remote" value="remote"/>Удаленный
+                                    </label>
                                 
-                                <label>
-                                    <input type="checkbox" name="project" value="project"/>Проектная работа
-                                </label>
+    
+                                    <label>
+                                        <input type="checkbox" name="flexible" value="flexible"/>Гибкий
+                                    </label>
+                                </div>
+                            </fieldset>
+                            <div class="form__item">
+                                <legend class="form__title">Опыт работы</legend>
+                                <div class="form__checkbox">
+                                    <label>
+                                        <input type="checkbox" name="unimportant" value="unimportant" checked />Не важно
+                                    </label>
+                                
+                                    <label>
+                                        <input type="checkbox" name="without" value="without"/>Без опыта
+                                    </label>
+                                
+    
+                                    <label>
+                                        <input type="checkbox" name="1to3" value="1to3"/>От 1 года до 3-х лет
+                                    </label>
+                                    
+                                    <label>
+                                        <input type="checkbox" name="3more" value="3more"/>От 3-х лет
+                                    </label>
+                                </div>
                             </div>
-                        </fieldset>
-
-                        <div class="form__btns">
-                            <a class="btn__reset" href="">Очистить</a>
-                            <a class="btn__submit" href="">Применить</a>
-                        </div>
-
-                    </form>
-                </section>
-
+    
+                            <fieldset class="form__item">
+                                <legend class="form__title">Опыт работы</legend>
+                                <div class="form__checkbox">
+                                    <label>
+                                        <input type="checkbox" name="full" value="full" checked />Полная
+                                    </label>
+                                
+                                    <label>
+                                        <input type="checkbox" name="part" value="part"/>Частичная
+                                    </label>
+                                
+    
+                                    <label>
+                                        <input type="checkbox" name="1to3" value="1to3"/>Стажировка
+                                    </label>
+                                    
+                                    <label>
+                                        <input type="checkbox" name="project" value="project"/>Проектная работа
+                                    </label>
+                                </div>
+                            </fieldset>
+    
+                            <div class="form__btns">
+                                <a class="btn__reset" href="">Очистить</a>
+                                <a class="btn__submit" href="">Применить</a>
+                            </div>
+    
+                        </form>
+                    </section>
+                </div>
             </div>
-        </div>
+    
+            <section class="vacancies__cards cards">
+                <ul class="cards__list">
+                    <li class="cards__item">
+                        <article class="vacancy">
+                            <div class="vacancy__img">
+                                <img src="img/yadro.svg" alt="Yadro">
+                            </div>
+                            <h2 class="vacancy__company">YADRO</h2>
+                            <h3 class="vacancy__title">Инженер</h3>
+                            <ul class="vacancy__fields">
+                                <li class="vacancy__field">от 150 000₽</li>
+                                <li class="vacancy__field">полная занятость</li>
+                                <li class="vacancy__field">офис</li>
+                                <li class="vacancy__field">опыт от 3-х лет</li>
+                            </ul>
 
-            
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
     
     <footer class="footer">
