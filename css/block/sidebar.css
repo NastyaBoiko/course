@@ -1,0 +1,85 @@
+.main__container {
+    padding-top: 100px;
+}
+
+/* sidebar */ 
+
+.sidebar {
+    max-width: 280px;
+}
+
+.sidebar__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.sidebar__filter {
+    color: #171717;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.sidebar__clean {
+    color: #CCC;
+    text-align: right;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.sidebar__items {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    gap: 32px;
+}
+
+.sidebar__item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sidebar__item-select {
+    border-radius: 4px;
+    border: none;
+    padding: 6px 16px;
+    color: #CCC;
+}
+
+.sidebar__item-option {
+    font-size: 14px;
+    line-height: 120%;
+    color: var(--color-black);
+}
+
+.sidebar__item-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__item-input {
+    width: 135px;
+    height: 32px;
+    margin: 0;
+    padding-left: 16px;
+    font-size: 14px;
+    border: none;
+}
+
+.sidebar__item-input::placeholder {
+    font-size: 14px;
+    text-transform: lowercase;
+    line-height: 120%;
+    color: #CCC;
+}
+
+.sidebar__item-checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebar__item-checkbox input {
+    border: none;
+}

@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
+:root {
+    --color-black: #171717;
+}
+
 body {
     font-family: 'Inter', sans-serif;
+    color: var(--color-black);
     font-size: 14px;
 }
 

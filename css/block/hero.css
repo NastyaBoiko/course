@@ -1,5 +1,9 @@
 /* hero */
 
+.hero {
+    padding-bottom: 57px;
+}
+
 .hero__title {
     color: #171717;
     font-size: 90px;
@@ -20,29 +24,4 @@
     position: absolute;
     top: 125px;
     right: 321px;
-}
-
-/* sidebar */ 
-
-.sidebar {
-    max-width: 280px;
-}
-
-.sidebar__title {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-
-.sidebar__filter {
-    color: #171717;
-    font-size: 20px;
-    line-height: 120%;
-}
-
-.sidebar__clean {
-    color: #CCC;
-    text-align: right;
-    font-size: 14px;
-    line-height: 120%;
 }

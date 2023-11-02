@@ -33,25 +33,43 @@
                         <div class="sidebar__clean">Очистить</div>
                     </div>
 
-                    <div class="sidebar__items">
+                    <form class="sidebar__items">
                         <div class="sidebar__item">
                             <div class="sidebar__item-title">Город</div>
                             <select class="sidebar__item-select" name="" id="">
-                                <option class="sidebar__item-option" value="">Как</option>
+                                <option class="sidebar__item-option" value="">Выбрать город</option>
                                 <option class="sidebar__item-option" value="">Это</option>
                                 <option class="sidebar__item-option" value="">Делать</option>
                             </select>
                         </div>
                         <div class="sidebar__item">
-                            <div class="sidebar__item-title">Город</div>
-                            <select class="sidebar__item-select" name="" id="">
-                                <option class="sidebar__item-option" value="">Как</option>
-                                <option class="sidebar__item-option" value="">Это</option>
-                                <option class="sidebar__item-option" value="">Делать</option>
-                            </select>
+                            <div class="sidebar__item-title">Заработная плата</div>
+                            <div class="sidebar__item-inputs">
+                                <input class="sidebar__item-input" type="text" name="minsalary" placeholder="От">
+                                <input class="sidebar__item-input" type="text" name="maxsalary" placeholder="До">
+                            </div>
+                        </div>
+                        <div class="sidebar__item">
+                            <div class="sidebar__item-title">Формат</div>
+                            <div class="sidebar__item-checkbox">
+                                <div>
+                                    <input type="checkbox" id="office" name="office" checked />
+                                    <label for="office">Офис</label>
+                                </div>
+                            
+                                <div>
+                                    <input type="checkbox" id="remote" name="remote" />
+                                    <label for="remote">Удаленный</label>
+                                </div>
+                            
+                                <div>
+                                    <input type="checkbox" id="flexible" name="flexible" />
+                                    <label for="flexible">Гибкий</label>
+                                </div>
+                            </div>
                         </div>
 
-                    </div>
+                    </form>
 
                 </div>
             </div>
