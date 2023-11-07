@@ -54,3 +54,9 @@
     color: #CCC;
     line-height: 120%;
 }
+
+@media (max-width: 1024px) {
+    .cards__list {
+        width: 580px;
+    }
+} 

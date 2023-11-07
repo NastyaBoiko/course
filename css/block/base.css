@@ -26,4 +26,11 @@ body {
     color: #2A18FF;
 }
 
+@media (max-width: 1024px) {
+    .container {
+        margin: 0 auto;
+        width: 880px;
+    }
+}
+
 
