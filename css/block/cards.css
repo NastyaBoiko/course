@@ -1,9 +1,56 @@
-.cards__container {
-    max-width: 880px;
+.cards__list {
+    display: flex;
+    width: 880px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .vacancy {
+    width: 280px;
+    height: 219px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    background-color: var(--color-white);
+    border-radius: 16px;
+}
+
+.vacancy__img {
+    width: 44px;
+    height: 44px;
+}
+
+.vacancy__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.vacancy__description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}
+
+.vacancy__company {
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.vacancy__name {
+    display: flex;
+    padding: 3px 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #EAECFF;
+}
+
+.vacancy__field {
+    color: #CCC;
+    line-height: 120%;
 }

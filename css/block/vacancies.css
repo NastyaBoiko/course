@@ -1,19 +1,19 @@
-/* .main {
+.main {
     display: flex;
     justify-content: space-between;
-} */
-
-.vacancies__container {
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 1180px;
+    margin: 0 auto;
 }
 
-/* filter */ 
-
-.vacancies {
-    max-width: 280px;
+.vacancies__container {
+    width: 280px;
     position: relative;
 }
+
+
+/* filter */ 
 
 .vacancies__title {
     color: #171717;
@@ -31,8 +31,11 @@
 .form__item {
     display: flex;
     flex-direction: column;
-    gap: 12px;
     padding: 0;
+}
+
+.form__title {
+    margin-bottom: 12px;
 }
 
 .form__select {
