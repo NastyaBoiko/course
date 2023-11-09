@@ -1,4 +1,4 @@
-.main {
+.vacancies {
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
@@ -70,6 +70,12 @@
     color: #CCC;
 }
 
+.form__checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
 .form__checkbox {
     display: flex;
     flex-direction: column;
@@ -108,8 +114,50 @@
 }
 
 @media (max-width: 1024px) {
-    .main {
+    .vacancies {
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+} 
+
+@media (max-width: 768px) {
+    .vacancies {
+        flex-direction: column;
+        padding-top: 61.5px;
+        padding-bottom: 0;
+    }
+    .vacancies__container {
+        width: 680px;
+        position: relative;
+    }
+    .form__inputs {
+        justify-content: start;
+        gap: 10px;
+    }
+    .form__checkboxes {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .btn__reset {
+        position: static;
+    }
+    .form__btns {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .vacancies__filter-arrow {
+        display: flex;
+        align-items: center;
+    }
+    .vacancies__title {
+        color: #2A18FF;
+        font-size: 14px;
+        position: relative;
+    }
+    .vacancies__arrow {
+        width: 20px;
+        height: 20px;
+        background: url("../../img/arrow.svg");
     }
 } 

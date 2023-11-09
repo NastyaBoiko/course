@@ -12,7 +12,8 @@
     letter-spacing: 1.8px;
     text-transform: uppercase;
     width: 780px;
-    margin: 57px 0;
+    padding: 57px 0;
+    margin: 0;
     position: relative;
 }
 
@@ -25,7 +26,7 @@
     background-size: contain;
     position: absolute;
     left: 798px;
-    top: -120px;
+    top: -63px;
 }
 
 @media (max-width: 1024px) {
@@ -39,6 +40,26 @@
         width: 340px;
         height: 340px;
         left: 580px;
-        top: -106px;
+        top: -53px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        padding-bottom: 0;
+    }
+    .hero__title {
+        font-size: 52px;
+        letter-spacing: 1.04px;
+        width: 450px;
+        padding: 40px 0;
+    }
+
+    .hero__title::after {
+        width: 269px;
+        height: 269px;
+        left: 450px;
+        top: -45px;
     }
 }

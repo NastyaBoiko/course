@@ -24,3 +24,17 @@
     font-weight: 600;
     line-height: 120%;
 }
+
+@media (max-width: 1024px) {
+    .header__container {
+        padding-top: 32px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__container {
+        padding-top: 24px;
+        padding-bottom: 60px;
+    }
+}
