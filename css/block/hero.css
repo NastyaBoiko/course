@@ -44,7 +44,6 @@
     }
 }
 
-
 @media (max-width: 768px) {
     .hero {
         padding-bottom: 0;
@@ -61,5 +60,27 @@
         height: 269px;
         left: 450px;
         top: -45px;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero {
+        padding-bottom: 20.5px;
+    }
+    .hero__title {
+        font-size: 32px;
+        letter-spacing: 0.64px;
+        width: 290px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero__title::after {
+        width: 269px;
+        height: 269px;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        top: -15px;
     }
 }

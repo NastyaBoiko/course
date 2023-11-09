@@ -38,3 +38,9 @@ body {
     }
 }
 
+@media (max-width: 320px) {
+    .container {
+        width: 290px;
+    }
+}
+
