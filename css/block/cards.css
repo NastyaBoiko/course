@@ -77,3 +77,18 @@
         height: 219px;
     }
 } 
+@media (max-width: 320px) {
+    .cards__item {
+        width: 100%;
+    }
+
+    .cards__list {
+        width: 100%;
+        gap: 10px;
+    } 
+    .vacancy {
+        width: 100%;
+        height: 219px;
+    }
+
+} 

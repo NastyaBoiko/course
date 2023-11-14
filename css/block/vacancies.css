@@ -161,3 +161,17 @@
         background: url("../../img/arrow.svg");
     }
 } 
+
+@media (max-width: 320px) {
+    .vacancies__container {
+        width: 100%;
+    }
+    .filter__form {
+        padding-top: 24px;
+        gap: 24px;
+    }
+    .form__checkboxes {
+        flex-direction: column;
+        gap: 24px;
+    }
+}

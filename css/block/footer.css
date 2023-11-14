@@ -24,3 +24,17 @@
         padding-bottom: 32px;
     }
 } 
+
+@media (max-width: 320px) {
+    .footer__container {
+        padding-bottom: 24px;
+        height: auto;
+    }
+    .footer__copyright {
+        margin-top: 16px;
+    }
+    .footer__developer {
+        padding-top: 30px;
+        position: static;
+    }
+} 
