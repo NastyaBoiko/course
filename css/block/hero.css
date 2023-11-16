@@ -25,7 +25,7 @@
     top: -63px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1220px) {
     .hero__title {
         font-size: 64px;
         letter-spacing: 1.28px;
@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 924px) {
     .hero {
         padding-bottom: 0;
     }
@@ -60,7 +60,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 724px) {
     .hero {
         padding-bottom: 20.5px;
     }
@@ -70,6 +70,7 @@
         width: 290px;
         padding: 0;
         text-align: center;
+        margin: 0 auto;
     }
 
     .hero__title::after {
