@@ -1,9 +1,5 @@
 /* hero */
 
-.hero {
-    padding-bottom: 57px;
-}
-
 .hero__title {
     color: var(--color-black);
     font-size: 90px;
@@ -34,6 +30,7 @@
         font-size: 64px;
         letter-spacing: 1.28px;
         width: 580px;
+        padding: 53px 0;
     }
 
     .hero__title::after {

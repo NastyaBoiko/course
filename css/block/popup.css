@@ -26,8 +26,8 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 150px;
-    height: 150px;
+    width: 155px;
+    height: 156px;
 }
 
 .popup__head {
@@ -65,6 +65,7 @@
     display: flex;
     gap: 20px;
     padding: 32px 0;
+    line-height: 140%;
 }
 
 .popup__description {
@@ -80,9 +81,74 @@
     justify-content: center;
     border-radius: 30px;
     background: #EAECFF;
+}
+
+.popup__field:not(:last-child) {
     margin-bottom: 4px;
 }
 
-@media (max-width: 768px) {
-    
+.popup__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+@media (max-width: 1024px) {
+    .popup {
+        top: 486px;
+    }
+}
+
+@media (max-width: 824px) {
+    .popup {
+        width: 680px;
+        left: calc(50% - 340px);
+        padding: 24px;
+        top: 459px;
+    }
+    .popup__info {
+        gap: 10px;
+    }
+    .popup__description {
+        max-width: 418px;
+    }
+}
+
+@media (max-width: 720px) {
+    .popup {
+        width: 290px;
+        height: 619px;
+        left: calc(50% - 145px);
+        padding: 24px 15px;
+        top: 448px;
+    }
+    .popup::after {
+        display: none;
+    }
+    .popup__head {
+        gap: 8px;
+    }
+    .popup__img {
+        width: 60px;
+        height: 60px;
+    }
+    .popup__company {
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.4px;
+    }
+    .popup__name {
+        font-size: 12px;
+        line-height: 120%;
+        margin-top: 4px;      
+    }
+    .popup__info {
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px 0;
+
+    }
+    .popup__fields {
+        max-width: 195px;
+    }
 }
