@@ -26,19 +26,19 @@ body {
     color: #2A18FF;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1220px) {
     .container {
         width: 880px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 924px) {
     .container {
         width: 680px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 724px) {
     .container {
         width: calc(100% - 30px);
     }

@@ -113,14 +113,14 @@
     height: 32px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1220px) {
     .vacancies {
         padding-top: 80px;
         padding-bottom: 80px;
     }
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 924px) {
     .vacancies {
         flex-direction: column;
         padding-top: 61.5px;
@@ -162,7 +162,10 @@
     }
 } 
 
-@media (max-width: 320px) {
+@media (max-width: 724px) {
+    .vacancies {
+        width: 290px;
+    }
     .vacancies__container {
         width: 100%;
     }

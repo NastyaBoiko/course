@@ -19,13 +19,13 @@
     gap: 8px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1220px) {
     .footer__container {
         padding-bottom: 32px;
     }
 } 
 
-@media (max-width: 320px) {
+@media (max-width: 724px) {
     .footer__container {
         padding-bottom: 24px;
         height: auto;
