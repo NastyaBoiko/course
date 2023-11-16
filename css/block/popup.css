@@ -93,13 +93,13 @@
     right: 12px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1220px) {
     .popup {
         top: 486px;
     }
 }
 
-@media (max-width: 824px) {
+@media (max-width: 924px) {
     .popup {
         width: 680px;
         left: calc(50% - 340px);
@@ -114,7 +114,7 @@
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 724px) {
     .popup {
         width: 290px;
         height: 619px;
