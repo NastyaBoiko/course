@@ -8,7 +8,7 @@
 
 .header__btn {
     padding: 12px 32px;
-    background-color: #A6ADFF;
+    background-color: var(--color-violet);
     font-size: 20px;
     border-radius: 8px;
 }

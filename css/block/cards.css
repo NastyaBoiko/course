@@ -21,7 +21,11 @@
 }
 
 .vacancy:focus {
-    outline: 2px solid #A6ADFF;
+    outline: 2px solid var(--color-violet);
+}
+
+.vacancy:hover {
+    background: #F9FAFF;
 }
 
 .vacancy__img {

@@ -3,6 +3,10 @@
 :root {
     --color-black: #171717;
     --color-white: #fff;
+    --color-violet: #A6ADFF;
+    --color-darkviolet: #2A18FF;
+    --color-gray: #CCC;
+
 }
 
 body {
@@ -23,7 +27,7 @@ body {
 }
 
 .color-violet {
-    color: #2A18FF;
+    color: var(--color-darkviolet);
 }
 
 .hide {
@@ -35,7 +39,11 @@ body {
 }
 
 .btn:focus {
-    outline: 2px solid #4F58BE;
+    outline: 2px solid var(--color-violet);
+}
+.btn:hover {
+    background: var(--color-darkviolet);
+    color: var(--color-white)
 }
 
 @media (max-width: 1220px) {
