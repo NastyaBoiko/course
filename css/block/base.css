@@ -26,6 +26,14 @@ body {
     color: #2A18FF;
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
 @media (max-width: 1220px) {
     .container {
         width: 880px;

@@ -5,6 +5,10 @@
     flex-wrap: wrap;
 }
 
+.cards__item {
+    cursor: pointer;
+}
+
 .vacancy {
     width: 280px;
     height: 219px;
