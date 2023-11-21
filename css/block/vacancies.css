@@ -137,6 +137,9 @@
         width: 680px;
         position: relative;
     }
+    .filter__form {
+        display: none;
+    }
     .form__inputs {
         justify-content: start;
         gap: 10px;
@@ -155,7 +158,9 @@
     }
     .vacancies__filter-arrow {
         display: flex;
+        width: 75px;
         align-items: center;
+        cursor: pointer;
     }
     .vacancies__title {
         color: var(--color-darkviolet);
