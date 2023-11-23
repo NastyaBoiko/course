@@ -173,6 +173,7 @@
     transform: rotate(180deg) translateY(-3px);
     transition: 0.8s;
   }
+  
   .arrow__down {
     transform: rotate(0deg) translateY(-3px);
     transition: 0.8s;
