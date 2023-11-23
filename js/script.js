@@ -22,7 +22,6 @@ popupClose.addEventListener("click", function () {
   popupWindow.classList.remove("show");
 });
 
-
 // Открытие, закрытие фильтров на экране < 925
 vacanciesFilterArrow.addEventListener("click", function () {
   let widthScreen = document.querySelector("body").offsetWidth;
